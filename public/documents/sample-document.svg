@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-label="Sample verification document">
+  <rect width="640" height="440" fill="#e7eef0" />
+  <rect x="72" y="40" width="496" height="360" rx="14" fill="#ffffff" stroke="#cbd5d9" />
+  <rect x="72" y="40" width="496" height="58" rx="14" fill="#0f766e" />
+  <rect x="72" y="84" width="496" height="14" fill="#0f766e" />
+  <text x="104" y="78" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" font-weight="bold">BABYSITTER CONNECT</text>
+  <text x="104" y="140" font-family="Arial, sans-serif" font-size="14" fill="#64748b" letter-spacing="2">VERIFICATION DOCUMENT</text>
+  <rect x="104" y="168" width="120" height="148" rx="8" fill="#e2e8f0" />
+  <circle cx="164" cy="216" r="30" fill="#94a3b8" />
+  <path d="M118 302c6-34 24-50 46-50s40 16 46 50z" fill="#94a3b8" />
+  <text x="256" y="192" font-family="Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="bold">Jordan A. Lee</text>
+  <text x="256" y="220" font-family="Arial, sans-serif" font-size="13" fill="#64748b">Date of birth · 05 / 12 / 1998</text>
+  <text x="256" y="246" font-family="Arial, sans-serif" font-size="13" fill="#64748b">Document no. · WA-4821-9930</text>
+  <text x="256" y="272" font-family="Arial, sans-serif" font-size="13" fill="#64748b">Expires · 05 / 12 / 2029</text>
+  <rect x="256" y="292" width="260" height="10" rx="5" fill="#e2e8f0" />
+  <rect x="256" y="314" width="210" height="10" rx="5" fill="#e2e8f0" />
+  <rect x="104" y="346" width="412" height="1" fill="#e2e8f0" />
+  <text x="104" y="376" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">Sample preview generated for the demo environment. No real personal data.</text>
+</svg>

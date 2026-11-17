@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Portrait illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <clipPath id="frame"><rect width="400" height="400" rx="0" /></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="400" height="400" fill="url(#bg)" />
+    <circle cx="322" cy="76" r="120" fill="#ffffff" opacity="0.14" />
+    <circle cx="52" cy="352" r="140" fill="#ffffff" opacity="0.1" />
+    <path d="M60 400c8-86 66-134 140-134s132 48 140 134z" fill="#0c4a6e" opacity="0.92" />
+    <path d="M148 268h104v58c0 22-23 38-52 38s-52-16-52-38z" fill="#e5b58b" />
+    <ellipse cx="200" cy="186" rx="82" ry="94" fill="#e5b58b" />
+    <path d="M118 176c-10-72 30-112 84-112 58 0 92 40 80 114-14-24-22-44-30-58-30 18-68 20-102 12-8 16-18 30-32 44z" fill="#1f1712" />
+    <circle cx="170" cy="190" r="6" fill="#2a1c15" opacity="0.8" />
+    <circle cx="230" cy="190" r="6" fill="#2a1c15" opacity="0.8" />
+    <path d="M182 224c10 9 26 9 36 0" fill="none" stroke="#8c5a44" stroke-width="4" stroke-linecap="round" opacity="0.7" />
+    <path d="M152 160c8-6 18-8 28-5" fill="none" stroke="#1f1712" stroke-width="5" stroke-linecap="round" opacity="0.75" />
+    <path d="M220 155c10-3 20-1 28 5" fill="none" stroke="#1f1712" stroke-width="5" stroke-linecap="round" opacity="0.75" />
+  </g>
+</svg>

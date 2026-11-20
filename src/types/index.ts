@@ -65,6 +65,8 @@ export interface SitterProfile {
   verificationStatus: VerificationStatus;
   languages: string[];
   skills: string[];
+  certifications?: string[];
+  dateOfBirth?: string;
   photoUrl: string;
   coverGradient: string;
   joinedAt: string;

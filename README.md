@@ -50,7 +50,7 @@ All demo users share the password **`password123`**.
 | Babysitter | `maya@example.com` |
 | Admin | `admin@example.com` |
 
-The sign-in screen also includes one-click demo buttons. New parent/sitter accounts can be registered from `/register`; registered users live in memory only.
+The sign-in screen also includes one-click demo buttons. New parent/sitter accounts can be registered from `/register`; registered users live in memory only. New sitters are taken to `/onboarding/sitter-profile` first, where they complete their photo, base location, language, experience, DOB, certifications, and introduction before moving on to verification. Existing sitters can reopen the same guide from **Profile → Setup guide**.
 
 ## Scripts
 

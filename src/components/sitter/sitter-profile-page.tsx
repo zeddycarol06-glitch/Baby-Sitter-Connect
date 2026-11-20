@@ -115,9 +115,14 @@ export function SitterProfilePageContent() {
         title="Your sitter profile"
         description="This is what families see when they find you. A warm, specific profile earns more requests."
         actions={
-          <Button asChild variant="outline">
-            <Link href={`/sitters/${profile.id}`}>Preview public page</Link>
-          </Button>
+          <div className="flex flex-wrap gap-2">
+            <Button asChild variant="outline">
+              <Link href="/onboarding/sitter-profile">Setup guide</Link>
+            </Button>
+            <Button asChild variant="outline">
+              <Link href={`/sitters/${profile.id}`}>Preview public page</Link>
+            </Button>
+          </div>
         }
       />
 

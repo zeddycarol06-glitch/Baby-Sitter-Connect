@@ -32,6 +32,19 @@ export const sitterProfileSchema = z.object({
   skills: z.array(z.string()).min(1, "Select at least one skill"),
 });
 
+export const sitterOnboardingSchema = z.object({
+  aboutYou: z
+    .string()
+    .trim()
+    .min(20, "Tell families a little more about yourself (20+ characters)")
+    .max(1200),
+  baseLocation: z.string().trim().min(2, "Base location is required"),
+  certifications: z.string().trim().max(300),
+  language: z.string().min(1, "Choose a language"),
+  yearsExperience: z.number().min(0, "Enter 0 or more").max(60, "Enter 60 or fewer"),
+  dateOfBirth: z.string().min(1, "Date of birth is required"),
+});
+
 export const messageSchema = z.object({
   body: z.string().trim().min(1, "Write a message").max(1000, "Messages must be 1000 characters or fewer"),
 });
@@ -79,6 +92,7 @@ export const adminSettingsSchema = z.object({
 export type ChildValues = z.infer<typeof childSchema>;
 export type ParentProfileValues = z.infer<typeof parentProfileSchema>;
 export type SitterProfileValues = z.infer<typeof sitterProfileSchema>;
+export type SitterOnboardingValues = z.infer<typeof sitterOnboardingSchema>;
 export type MessageValues = z.infer<typeof messageSchema>;
 export type DisputeValues = z.infer<typeof disputeSchema>;
 export type VerificationUploadValues = z.infer<typeof verificationUploadSchema>;

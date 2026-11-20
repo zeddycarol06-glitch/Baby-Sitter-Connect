@@ -58,7 +58,7 @@ export function RegisterForm({ defaultRole = "parent" }: { defaultRole?: "parent
       });
       setUser(user);
       toast.success("Your account is ready. Welcome!");
-      router.replace(ROLE_HOME[user.role]);
+      router.replace(user.role === "sitter" ? "/onboarding/sitter-profile" : ROLE_HOME[user.role]);
       router.refresh();
     } catch (error) {
       setFormError(getErrorMessage(error));
